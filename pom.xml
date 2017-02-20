@@ -23,6 +23,7 @@
   
   
   <dependencyManagement>
+  	<!-- mybatis -->
   	<dependencies>
   		<dependency>
 		    <groupId>org.mybatis</groupId>
@@ -35,7 +36,21 @@
 			<artifactId>mybatis-spring</artifactId>
 			<version>1.2.3</version>
 		</dependency>
+		
+		<!-- jackson -->
+		<dependency>
+	  		<groupId>com.fasterxml.jackson.core</groupId>
+	  		<artifactId>jackson-core</artifactId>
+			<version>2.6.5</version>
+		</dependency>
+	
+		<dependency>
+	  		<groupId>com.fasterxml.jackson.core</groupId>
+	  		<artifactId>jackson-databind</artifactId>
+	  		<version>2.6.5</version>
+		</dependency>
   	</dependencies>
+  	
   </dependencyManagement>
   
   
