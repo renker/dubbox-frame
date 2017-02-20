@@ -3,7 +3,6 @@ package com.renker.frame.redis;
 import java.lang.reflect.Method;
 
 import org.springframework.cache.CacheManager;
-import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.context.annotation.Bean;
@@ -20,7 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Configuration
 @EnableCaching
-public class RedisAutoConfiguration extends CachingConfigurerSupport{
+public class RedisAutoConfiguration{
 	@Bean  
     public KeyGenerator wiselyKeyGenerator(){  
         return new KeyGenerator() {  
