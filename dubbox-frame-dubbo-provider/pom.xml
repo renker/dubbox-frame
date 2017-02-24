@@ -139,6 +139,7 @@
     <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
         <artifactId>tomcat-embed-logging-juli</artifactId>
+	     <groupId>org.apache.tomcat.embed</groupId> <groupId>org.apache.tomcat.embed</groupId>
     </dependency>
     
   </dependencies>
