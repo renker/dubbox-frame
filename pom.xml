@@ -17,6 +17,7 @@
   	<module>dubbox-frame-data-mybatis</module>
   	<module>dubbox-frame-dubbo-provider</module>
   	<module>dubbox-frame-dubbo-customer</module>
+  	<module>dubbox-frame-dubbo-api</module>
   </modules>
   
   <properties>
