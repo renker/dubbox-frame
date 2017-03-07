@@ -18,6 +18,7 @@
   	<module>dubbox-frame-dubbo-provider</module>
   	<module>dubbox-frame-dubbo-customer</module>
   	<module>dubbox-frame-dubbo-api</module>
+  	<module>dubbox-frame-jobs-quartz</module>
   </modules>
   
   <properties>
